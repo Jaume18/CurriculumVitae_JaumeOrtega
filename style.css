@@ -1,0 +1,433 @@
+
+
+
+
+.starter{
+
+    background: #FCF5ED;
+    background-size: cover;
+    background-position: center,center;
+    color: #fff;
+}
+
+.starter .container-section{
+
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.starter .container-section header{
+
+    padding: 30px;
+}
+
+.starter .container-section header nav{
+
+    position: fixed;
+    margin-left: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    background-color: #CE5A67 ;
+    display: none;
+
+}
+
+.starter .container-section header nav a{
+
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.starter .container-section header .nav-bar{
+
+    position: fixed;
+    background-color: #CE5A67;  
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.starter .container-section header .nav-bar:hover{
+    box-shadow: 0 0 20px #1F1717;
+}
+
+.starter .container-section .info{
+    padding-left: 400px;
+    padding-bottom: 130px;
+}
+.starter .container-section .info h1{
+    color: #1F1717;
+
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.starter .container-section .info h2{
+    color: #1F1717;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.starter .container-section .info .networks{
+   margin: 20px 0; 
+}
+.starter .container-section .info .networks a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1F1717;
+    color:#CE5A67;
+    border: 1px solid #CE5A67;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.starter .container-section .info .networks a:hover{
+    color: #fff;
+    background-color: #CE5A67;
+    box-shadow: 0 0 20px #CE5A67;
+}
+
+.starter .container-section .foto{
+    position: relative;
+}
+
+.starter .container-section .foto img{
+    max-width: 200px;
+    border-radius: 10%;
+    position: absolute;
+    left: 50%;
+    top: -100x;
+    margin-top: -50px;
+    margin-left: -400px;
+    transform: translateX(-50%);
+}
+
+.container-title {
+    font-size: 2rem;
+    color: #1F1717;
+}
+
+.aboutMe{
+    background-color: #FCF5ED;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.aboutMe .aboutMe-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px ;
+   position: relative;
+    
+}
+
+.aboutMe .aboutMe-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.aboutMe .aboutMe-section p{
+    max-width: 700px;
+    margin: auto;
+    color: #1F1717;
+}
+
+.aboutMe .aboutMe-section .row-perfil{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    padding-left: 40px;
+}
+
+.aboutMe .aboutMe-section .row-perfil .col-perfil{
+    width: 50%;
+}
+
+.aboutMe i{
+    display: inline-block;
+     color: #CE5A67;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     line-height: 30px;
+     border: 2px solid #CE5A67;
+     background-color: #1F1717;
+     
+ }
+
+.aboutMe span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.aboutMe .aboutMe-section .row-vol{
+    display: inline-block;
+    position: absolute;
+    right: -230px;
+    top: 253px;
+    left: 600px;
+}
+
+.aboutMe .aboutMe-section .row-vol .col-vol{
+    width: 50%;
+}
+
+.aboutMe .aboutMe-section .row-apti{
+    display: inline-block;
+    margin-left: 340px;
+    margin-top: 300px;
+}
+
+.aboutMe .aboutMe-section .row-apti .col-apti{
+    width: 50%;
+}
+
+.education{
+    background-color: #FCF5ED;
+    padding: 150px 0 100px 0;
+    text-align: center;
+}
+
+.education .container-education{
+
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px ;
+   
+   position: relative;
+
+
+}
+
+
+.education .container-education .container-rEducation{
+
+    position: absolute;
+    left: 0%;
+    margin-top: 100px;
+    width: 40%;
+   
+
+}
+.education .container-education .container-rEducation h3{
+
+    font-weight: bold;
+
+}
+
+.education .container-education .container-noR{
+
+    position: absolute;
+    left: 66%;
+    margin-top: 100px;
+
+}
+
+.education .container-education .container-noR h3{
+    font-weight: bold;
+}
+
+
+.education .container-education .container-rEducation h4{
+   
+    border: 2px solid #1F1717;
+    background-color: #F4BF96;
+    border-radius: 20%;
+    padding-top: 30px;
+    height: 30px;
+    width: 70px;
+    line-height: 5px;
+   
+    
+}
+
+.education .container-education .container-rEducation h5{
+    
+    position: relative;
+    left: 20%;
+    top: -360px;
+    padding-top: 30px;
+   
+    
+}
+
+.education i{
+    display: inline-block;
+     color: #CE5A67;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     line-height: 30px;
+     border: 2px solid #CE5A67;
+     background-color: #1F1717;    
+ }
+
+ .education .container-education .container-noR h4{
+    display: block;
+    margin-right: -100px;
+    border: 2px solid #1F1717;
+    background-color: #F4BF96;
+    border-radius: 20%;
+    padding-top: 30px;
+    height: 30px;
+    width: 70px;
+    line-height: 5px;
+ 
+
+}
+.education .container-education .container-noR h5{
+    display: block;
+    position: relative;
+    left: 30%;
+    top: -370px;
+    padding-top: 35px;
+
+   
+    
+}
+.experience {
+    background-color: #FCF5ED;
+    padding: 600px 0 100px 0;
+    text-align: center;
+}
+
+.experience .container-experience {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+
+
+.experience .container-experience .job {
+    background-color: #F4BF96;
+    border: 2px solid #1F1717;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.experience .container-experience .job h3 {
+    font-size: 1.5rem;
+    color: #1F1717;
+}
+
+.experience .container-experience .experience .container-experience .date {
+    color: #777;
+}
+
+
+.contact {
+    background-color: #1F1717;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact .container-contact {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact .container-title {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact .contact-item {
+    margin: 0 20px;
+}
+
+.contact .contact-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #CE5A67;
+}
+
+.contact .contact-item p {
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .starter .container-section header nav {
+        display: block; 
+    }
+
+    .starter .container-section .info {
+        padding-left: 0; 
+    }
+
+    .starter .container-section .foto img {
+        max-width: 100%; 
+        position: static; 
+        margin: 0; 
+        transform: none; 
+    }
+
+    .aboutMe .aboutMe-section .row-perfil{
+        display: block; 
+        position: static; 
+        margin-top: 20px; 
+    }
+    .aboutMe .aboutMe-section .row-vol{
+        display: block; 
+        position: static; 
+        margin-top: 20px; 
+    }
+    .aboutMe .aboutMe-section .row-apti {
+        display: block; 
+        position: static; 
+        margin-top: 20px; 
+    }
+
+    .education .container-education .container-rEducation{
+        position: static; 
+        display: block;
+        
+    }
+    .education .container-education .container-noR {
+        position: static; 
+        display:  block;
+       
+    }
+
+    .experience .container-experience .job {
+        margin: 20px 0; 
+    }
+
+
+    .contact .contact-info {
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 20px; 
+    }
+    
+}
